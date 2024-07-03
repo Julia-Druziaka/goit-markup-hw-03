@@ -46,7 +46,7 @@ a {
 }
 
 .header-logo {
-  padding: 24 0;
+  padding: 24 0px;
   margin-right: 76px;
 }
 
@@ -99,16 +99,31 @@ a {
 
 .page-section {
   background-color: #2e2f42;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.container {
+  max-width: 1158px;
+  padding-top: 156px;
+  padding-bottom: 220px;
+  padding: 15px;
+  margin: 0 auto;
 }
 
 .typog {
-  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 .button {
@@ -118,10 +133,16 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: block;
 }
 
 .button {
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .button {
@@ -133,6 +154,23 @@ a {
   background-color: #404bbf;
 }
 
+.container {
+  max-width: 1158px;
+  padding: 15px;
+}
+
+.title-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 120px;
+}
+
+.title-lust {
+  padding-top: 120px;
+  width: calc(100%-72px) / 4;
+}
+
 .title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -140,6 +178,9 @@ a {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 8px;
+  padding-right: 24px;
 }
 
 .text {
@@ -149,10 +190,13 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 8px;
+  padding-right: 24px;
 }
 
 .team-section {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 
 .team {
@@ -169,8 +213,19 @@ a {
   text-align: center;
 }
 
+.photo-team {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 152px;
+}
+
 .team-li {
   background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  padding-bottom: 152px;
 }
 
 .content {
@@ -189,6 +244,13 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-right: 49px;
+  padding-bottom: 8px;
+  padding-left: 49px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }
 
 .texty {
@@ -199,6 +261,11 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #434455;
+  padding-bottom: 32px;
+  padding-top: 8px;
+  padding-left: 52px;
+  padding-right: 52px;
+  text-align: center;
 }
 
 .oury {
