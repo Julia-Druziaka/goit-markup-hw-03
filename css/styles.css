@@ -374,10 +374,17 @@ a {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.tixt {
+  max-width: 264px;
 }
 
 .tixt {
