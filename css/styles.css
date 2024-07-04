@@ -262,12 +262,11 @@ a {
 
 .content {
   background: #ffffff;
+  display: block;
 }
 
 .context {
   padding: 32px 0;
-  display: block;
-  margin-bottom: 8px;
 }
 
 .contenty {
@@ -304,6 +303,7 @@ a {
   padding-left: 52px;
   padding-right: 52px;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .oury {
