@@ -376,7 +376,7 @@ a {
   padding: 100px 0;
 }
 
-.logo footer-logo {
+.logo footer-logo .logo-part {
   display: inline-block;
   margin-bottom: 15px;
 }
