@@ -262,11 +262,12 @@ a {
 
 .content {
   background: #ffffff;
-  display: block;
 }
 
 .context {
   padding: 32px 0;
+  display: block;
+  margin-bottom: 8px;
 }
 
 .contenty {
