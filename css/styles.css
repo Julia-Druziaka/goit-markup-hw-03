@@ -168,6 +168,23 @@ a {
   background-color: #404bbf;
 }
 
+.title-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   max-width: 1158px;
   padding: 15px;
@@ -178,11 +195,12 @@ a {
   align-items: center;
   gap: 24px;
   padding-bottom: 120px;
+  width: calc-17px;
 }
 
 .title-lust {
   padding-top: 120px;
-  width: calc(100%-72px) / 4;
+  width: calc-17px;
 }
 
 .title {
@@ -195,6 +213,7 @@ a {
   padding-top: 120px;
   padding-bottom: 8px;
   padding-right: 24px;
+  margin-bottom: 8px;
 }
 
 .text {
