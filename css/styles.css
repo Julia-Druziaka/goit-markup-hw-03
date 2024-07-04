@@ -24,6 +24,9 @@ p {
 a {
   text-decoration: none;
 }
+.img {
+  display: block;
+}
 
 .container {
   max-width: 1158px;
@@ -197,7 +200,7 @@ a {
 
 .title-lust {
   padding-top: 120px;
-  width: -17px;
+  width: calc((100% - 72px) / 4);
 }
 
 .title {
@@ -258,10 +261,6 @@ a {
   padding: 0px 0px 32px 0px;
   padding-bottom: 152px;
   width: calc((100% - 48px) / 3);
-}
-
-.img {
-  display: block;
 }
 
 .content {
@@ -377,10 +376,13 @@ a {
   padding: 100px 0;
 }
 
+.logo footer-logo {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
 .footer-logo .logo-part {
   color: #f4f4fd;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .tixt {
