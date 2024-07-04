@@ -27,7 +27,7 @@ a {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 
@@ -112,7 +112,7 @@ a {
   height: 600px;
   display: flex;
   align-items: center;
-  padding-bottom: 120px;
+  padding: 188px 0;
 }
 
 .container {
@@ -148,6 +148,10 @@ a {
   padding-left: 32px;
   padding-right: 32px;
   display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .button {
@@ -240,6 +244,7 @@ a {
 
 .content {
   background: #ffffff;
+  display: block;
 }
 
 .contenty {
