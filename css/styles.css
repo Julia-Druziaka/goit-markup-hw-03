@@ -31,7 +31,7 @@ img {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -376,8 +376,7 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-
-.logo footer-logo .logo-part {
+.footer-logo {
   display: inline-block;
   margin-bottom: 15px;
 }
